@@ -407,3 +407,19 @@ div#map {
         max-width: 50%;
     }
 }
+
+
+.menucontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuitem {
+    display: flex;
+    align-items: center;
+}
+
+.menuitem span {
+    margin-left: 5px; /* Adjust margin as needed */
+}
